@@ -1,0 +1,17 @@
+{
+  "name": "Copy Opened Tabs URLs",
+  "description": "Copy urls from opened tabs. You can copy all or user RegEx to match specifically the ones you need.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "homepage_url": "https://github.com/Mix-Anik/copy-opened-tabs-urls",
+  "action": {
+	"default_title": "Copy URLs",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

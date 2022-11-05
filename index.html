@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<script type='text/javascript' src='logic.js'></script>
+	</head>
+	<body>
+		<p>Leave "RegEx" field empty to copy all tab urls</p>
+		<div>
+			<label>RegEx:</label>
+			<input type="text" id="url-regex" placeholder=".*google.com/.*"/>
+		</div>
+		<div>
+			<input type="button" id="copy-btn" value="Copy"/>
+		</div>
+		<br/>
+		<div>
+			<p>Copied links:</p>
+			<textarea id="urls-textarea" readonly></textarea>
+		</div>
+	</body>
+</html>
